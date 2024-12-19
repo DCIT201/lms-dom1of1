@@ -1,5 +1,8 @@
-public class Book {
+package org.example;
 
-    // This is your working class.
-    
+/**
+ * Represents a book with a title, author, and year of publication.
+ */
+public record Book(String title, String author, int yearPublished) {
+    // The record automatically generates the constructor and other methods.
 }
