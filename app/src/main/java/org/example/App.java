@@ -6,7 +6,7 @@ public class App {
 
         // Add books to the library
         library.addBook(new Book("Things fall Apart", "Chinua Achebe", 2002));
-        library.addBook(new Book("Slow and Fast Thinking", "Will Taylor", 1957));
+        library.addBook(new Book("Slow and Fast Thinking", "Will Taylor", 1949));
 
         // List all books
         System.out.println("Books in the library:");
